@@ -5,7 +5,7 @@ sentence is about (**price, quality, delivery, support**), scores the mood of ea
 (positive, neutral, negative), and answers questions about recurring issues using only the reviews,
 with review IDs as proof.
 
-- **Live demo:** _add your Render link here_
+- **Live demo: https://aspectra-1.onrender.com
 - **Evaluation report:** [EVALUATION.md](EVALUATION.md)
 - **Demo video:** _add your video link here_
 
