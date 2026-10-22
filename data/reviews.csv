@@ -1,0 +1,401 @@
+review_id,product,rating,text
+1,Wireless Earbuds,1,"So, the package arrived damaged."
+2,Yoga Mat,3,I contacted support once about setup.
+3,Coffee Maker,2,"The package turned up crushed and the coffee maker was scratched. Too expensive, I paid far too much for this coffee maker. The coffee maker works perfectly after three months of use."
+4,Yoga Mat,3,"So, customer service was rude. Got it on sale, brilliant value."
+5,Coffee Maker,1,"Overall, the package turned up crushed and the coffee maker was scratched."
+6,Wireless Earbuds,5,My parcel came well packed and on time.
+7,Yoga Mat,5,"Excellent quality, it feels premium."
+8,Wireless Earbuds,2,"So, cheaper than other brands and still excellent. Support was useless and never fixed my problem. My package showed up damaged."
+9,Wireless Earbuds,1,"Overall, the quality is terrible, it already looks broken."
+10,Yoga Mat,1,The mat broke after two weeks.
+11,Wireless Earbuds,2,"Very sturdy earbuds, I'm impressed. Customer service was rude. Not worth the price at all."
+12,Coffee Maker,5,The price is very fair for what you get.
+13,Wireless Earbuds,3,The parcel showed up in five days.
+14,Smart Watch,2,"Overall, quality is okay, nothing special. Overpriced, you can find it for less elsewhere."
+15,Coffee Maker,1,"Cheap plastic, feels flimsy. Not worth the price at all."
+16,Yoga Mat,3,"Quality is okay, nothing special."
+17,Yoga Mat,2,"Overall, support sent me the standard manual. Delivery was poor, almost three weeks of waiting. Too expensive, I paid far too much for this mat."
+18,Smart Watch,1,"So, customer service was rude."
+19,Yoga Mat,2,"Overall, it was shipped by standard post. Totally overpriced for a mat."
+20,Yoga Mat,3,"Price is average for a mat. Delivery was disappointing, three weeks of waiting. Feels solid and well made."
+21,Wireless Earbuds,2,"I have to say, price is average for a earbuds. The courier lost my parcel for a week."
+22,Yoga Mat,4,"I have to say, still working like new after six months. Price is average for a mat."
+23,Yoga Mat,2,"Overall, support sent me the standard manual. The parcel turned up damaged."
+24,Smart Watch,2,"Support never answered my emails. Shipping was quick and the tracking was fantastic. Poorly made and flimsy, the watch fell apart after ten days."
+25,Coffee Maker,1,The coffee maker broke after two weeks.
+26,Coffee Maker,2,The price is about what I expected. I emailed support three times and got no answer.
+27,Smart Watch,3,"Overall, I paid the normal price for it. Fantastic customer service, they answered all my questions. The courier lost the parcel for a week."
+28,Coffee Maker,4,"Overall, delivery was poor, three weeks of waiting. Worth every penny. The seller sent a refund quickly, fantastic service."
+29,Wireless Earbuds,1,My package arrived crushed and the earbuds was scratched.
+30,Smart Watch,2,"I have to say, the build quality of the watch is brilliant. The seller ignored my refund request, disappointing service. Not worth the price at all."
+31,Yoga Mat,1,"I have to say, support was useless and never fixed my problem."
+32,Yoga Mat,3,"So, the mat is made of plastic, as expected."
+33,Yoga Mat,2,"Overpriced, you can find it for less elsewhere. Delivery took nearly four weeks. Support sent me the standard manual."
+34,Smart Watch,5,"I have to say, excellent customer service, they answered all my questions."
+35,Coffee Maker,3,"So, delivery was poor, two weeks of waiting. I asked the seller about the warranty. The coffee maker works perfectly after a year of use."
+36,Coffee Maker,5,"I have to say, support replied within two hours and fixed it."
+37,Yoga Mat,3,The courier lost the parcel for a week. Great value for the money. Support sent me the standard manual.
+38,Yoga Mat,5,"Excellent quality, it feels premium. The price is very fair for what you get."
+39,Coffee Maker,1,"I have to say, shipping was late and nobody told me why."
+40,Smart Watch,3,The price is about what I expected. Shipping was late and nobody told me why. Feels solid and well made.
+41,Yoga Mat,5,"So, great value for the money."
+42,Wireless Earbuds,3,"I have to say, the courier lost my parcel for a week. Very sturdy earbuds, I'm impressed."
+43,Yoga Mat,5,The build quality of the mat is fantastic.
+44,Smart Watch,5,Cheaper than other brands and still fantastic.
+45,Yoga Mat,2,"So, the courier lost the package for a week. Price is average for a mat. Support never answered my emails."
+46,Coffee Maker,5,"I have to say, support replied within an hour and fixed it."
+47,Smart Watch,5,"I have to say, my parcel arrived a day early. Great customer service, they answered all my questions."
+48,Wireless Earbuds,4,"I have to say, the price is about what I expected. Very sturdy earbuds, I'm impressed."
+49,Smart Watch,1,"So, shipping was late and nobody told me why. Flimsy watch, the design feels poor."
+50,Wireless Earbuds,2,
+51,Coffee Maker,4,"Great customer service, they answered all my questions. I paid the normal price for it."
+52,Yoga Mat,1,"I have to say, shipping was late and nobody told me why."
+53,Wireless Earbuds,1,Totally overpriced for a earbuds.
+54,Yoga Mat,4,Cheaper than other brands and still brilliant. Shipping was quick and the tracking was fantastic. Support was useless and never fixed my problem.
+55,Wireless Earbuds,2,"So, customer service was rude. Way too expensive for what you get. The earbuds works perfectly after two months of use."
+56,Coffee Maker,3,"Overall, support replied within an hour and fixed it. Delivery was terrible, nearly four weeks of waiting."
+57,Wireless Earbuds,2,"I have to say, the earbuds works perfectly after two months of use. The package turned up crushed and the earbuds was scratched. Support was useless and never fixed my problem."
+58,Smart Watch,5,"I have to say, feels solid and well made."
+59,Yoga Mat,4,"So, got it on sale, excellent value. Support sent me the standard manual."
+60,Coffee Maker,2,For this price the coffee maker is a real bargain. Delivery took nearly four weeks. I emailed support several times and got no answer.
+61,Smart Watch,4,"The price is about what I expected. Great quality, it feels premium."
+62,Wireless Earbuds,3,"The seller sent a refund quickly, fantastic service. The courier lost my parcel for a week."
+63,Coffee Maker,4,"So, the package arrived crushed and the coffee maker was scratched. Cheaper than other brands and still brilliant. The seller sent a refund quickly, excellent service."
+64,Smart Watch,1,"I have to say, too expensive, I paid far too much for this watch."
+65,Coffee Maker,4,"I have to say, customer service was rude. The parcel came well packed and on time. Feels solid and well made."
+66,Coffee Maker,5,"So, for this price the coffee maker is a real bargain."
+67,Smart Watch,3,"Overall, it does the job, standard quality."
+68,Smart Watch,5,"I have to say, support replied within two hours and fixed it."
+69,Yoga Mat,3,"Overall, the mat is made of plastic, as expected. The price is about what I expected."
+70,Coffee Maker,3,Delivery took the usual week. Support sent me the standard manual.
+71,Wireless Earbuds,2,"Overall, the seller ignored my refund request, disappointing service. The courier lost my package for a week. Brilliant quality, it feels premium."
+72,Wireless Earbuds,4,"The seller sent a refund quickly, great service. I paid the normal price for it."
+73,Coffee Maker,1,"So, overpriced, you can find it for less elsewhere."
+74,Wireless Earbuds,2,"Overall, I contacted support once about setup. Way too expensive for what you get."
+75,Smart Watch,2,Support was useless and never fixed my problem. Worth every penny. Shipping was late and nobody told me why.
+76,Yoga Mat,3,"I have to say, the courier lost my package for a week. The build quality of the mat is fantastic."
+77,Coffee Maker,4,Support sent me the standard manual. Delivery was really quick.
+78,Yoga Mat,2,"Overall, support sent me the standard manual. The price is disappointing for such basic features. Delivery took nearly four weeks."
+79,Yoga Mat,4,"Overall, delivery was really quick. Excellent customer service, they answered all my questions. Price is average for a mat."
+80,Smart Watch,2,"Overall, the seller ignored my refund request, poor service. Quality is okay, nothing special."
+81,Yoga Mat,1,"So, the price is disappointing for such basic features."
+82,Yoga Mat,1,Stopped working after ten days.
+83,Smart Watch,1,"Overall, customer service was rude. The courier lost my parcel for a week. Too expensive, I paid far too much for this watch."
+84,Yoga Mat,1,"So, delivery was disappointing, two weeks of waiting."
+85,Wireless Earbuds,5,"Overall, the earbuds works perfectly after three months of use."
+86,Coffee Maker,2,"So, I asked the seller about the warranty. My parcel arrived crushed and the coffee maker was scratched."
+87,Wireless Earbuds,1,"So, delivery was disappointing, three weeks of waiting."
+88,Yoga Mat,3,The price is very fair for what you get. My package arrived damaged.
+89,Yoga Mat,2,"So, very sturdy mat, I'm impressed. My package arrived damaged. I emailed support several times and got no answer."
+90,Yoga Mat,5,Feels solid and well made. Cheaper than other brands and still great.
+91,Wireless Earbuds,1,"Overpriced, you can find it for less elsewhere. Support was useless and never fixed my problem."
+92,Smart Watch,3,"Overall, the courier lost the parcel for a week. Cheaper than other brands and still brilliant. It does the job, standard quality."
+93,Yoga Mat,1,"Overall, support was useless and never fixed my problem."
+94,Coffee Maker,4,"The build quality of the coffee maker is excellent. The seller sent a refund quickly, great service. Totally overpriced for a coffee maker."
+95,Wireless Earbuds,5,"So, worth every penny."
+96,Coffee Maker,5,The coffee maker works perfectly after two months of use.
+97,Smart Watch,4,"I contacted support once about setup. Very sturdy watch, I'm impressed."
+98,Coffee Maker,3,"Got it on sale, great value. Cheap plastic, feels flimsy."
+99,Coffee Maker,3,"Delivery was awful, almost three weeks of waiting. Customer support was very helpful."
+100,Yoga Mat,1,
+101,Yoga Mat,3,"So, the package turned up crushed and the mat was scratched. Very sturdy mat, I'm impressed."
+102,Coffee Maker,5,"Overall, feels solid and well made."
+103,Wireless Earbuds,2,Worth every penny. The package showed up damaged. I waited four days for support to reply.
+104,Coffee Maker,5,"Overall, cheaper than other brands and still great."
+105,Wireless Earbuds,1,Totally overpriced for a earbuds.
+106,Wireless Earbuds,3,Great value for the money. I emailed support twice and got no answer.
+107,Yoga Mat,5,"Very sturdy mat, I'm impressed."
+108,Coffee Maker,3,"The quality is poor, it already looks broken. The price is incredibly fair for what you get. I contacted support once about setup."
+109,Coffee Maker,2,"Poorly made and flimsy, the coffee maker fell apart after two weeks. The seller sent a refund quickly, excellent service. Way too expensive for what you get."
+110,Coffee Maker,3,"Overall, the build quality of the coffee maker is excellent. My package showed up crushed and the coffee maker was scratched."
+111,Wireless Earbuds,1,"Overall, shipping was late and nobody told me why."
+112,Smart Watch,1,Customer service was rude. Way too expensive for what you get. Delivery took nearly four weeks.
+113,Yoga Mat,1,"Overall, shipping was late and nobody told me why."
+114,Yoga Mat,2,"I have to say, support never answered my emails. Delivery was terrible, almost three weeks of waiting. For this price the mat is a real bargain."
+115,Coffee Maker,1,"The courier lost my package for a week. The quality is poor, it already looks broken."
+116,Coffee Maker,4,"Overall, brilliant customer service, they answered all my questions. The coffee maker is made of plastic, as expected. The parcel turned up a day early."
+117,Coffee Maker,3,"Overall, still working like new after three months. I emailed support four times and got no answer."
+118,Yoga Mat,3,"So, I waited two days for support to reply. Still working like new after a year."
+119,Smart Watch,3,"Overall, cheaper than other brands and still excellent. My parcel turned up damaged. The watch is made of plastic, as expected."
+120,Smart Watch,3,"Price is average for a watch. Delivery was awful, two weeks of waiting. The build quality of the watch is brilliant."
+121,Coffee Maker,4,"So, feels solid and well made. Worth every penny. My parcel arrived damaged."
+122,Wireless Earbuds,3,Price is average for a earbuds. I asked the seller about the warranty. Delivery took the usual week.
+123,Wireless Earbuds,1,Support never answered my emails.
+124,Coffee Maker,4,Delivery took the usual week. Feels solid and well made.
+125,Wireless Earbuds,3,"Overall, I paid the normal price for it."
+126,Wireless Earbuds,1,"So, delivery took nearly four weeks."
+127,Smart Watch,2,"I have to say, I emailed support several times and got no answer. The watch is made of plastic, as expected. The price is poor for such basic features."
+128,Yoga Mat,4,"So, delivery was terrible, almost three weeks of waiting. The seller sent a refund quickly, brilliant service. The build quality of the mat is great."
+129,Smart Watch,4,"Very sturdy watch, I'm impressed. I paid the normal price for it. The support team was friendly and patient."
+130,Coffee Maker,1,"I have to say, the package turned up damaged."
+131,Coffee Maker,2,"I have to say, I paid the normal price for it. Cheap plastic, feels flimsy. Shipping was late and nobody told me why."
+132,Coffee Maker,1,The package showed up damaged.
+133,Coffee Maker,5,Customer support was incredibly helpful.
+134,Coffee Maker,1,The courier lost my package for a week.
+135,Smart Watch,3,"Overall, I asked the seller about the warranty. For this price the watch is a real bargain. The courier lost the package for a week."
+136,Yoga Mat,3,"Totally overpriced for a mat. Brilliant quality, it feels premium."
+137,Wireless Earbuds,5,"So, for this price the earbuds is a real bargain."
+138,Smart Watch,1,The parcel arrived damaged.
+139,Coffee Maker,5,"I have to say, still working like new after six months."
+140,Wireless Earbuds,5,"So, the price is really fair for what you get."
+141,Smart Watch,4,"Fantastic customer service, they answered all my questions. The price is about what I expected."
+142,Smart Watch,4,"So, delivery was super quick. Quality is okay, nothing special. Support sent me the standard manual."
+143,Yoga Mat,1,"I have to say, the quality is awful, it already looks broken. My package arrived damaged."
+144,Smart Watch,3,"Flimsy watch, the design feels awful. The package showed up in five days. The seller sent a refund quickly, brilliant service."
+145,Coffee Maker,2,"Overall, poorly made and flimsy, the coffee maker fell apart after ten days. The price is about what I expected."
+146,Yoga Mat,1,The parcel turned up crushed and the mat was scratched.
+147,Yoga Mat,1,"Overpriced, you can find it for less elsewhere. Support never answered my emails."
+148,Smart Watch,2,"The watch is made of plastic, as expected. Delivery took the usual week. The price is poor for such basic features."
+149,Yoga Mat,2,"So, I waited three days for support to reply. The parcel arrived crushed and the mat was scratched. The price is very fair for what you get."
+150,Yoga Mat,4,
+151,Yoga Mat,4,The mat works perfectly after six months of use. Support sent me the standard manual.
+152,Coffee Maker,2,"So, great value for the money. The coffee maker broke after ten days. Customer service was rude."
+153,Coffee Maker,1,"The parcel arrived crushed and the coffee maker was scratched. I emailed support several times and got no answer. Cheap plastic, feels flimsy."
+154,Coffee Maker,5,"Brilliant customer service, they answered all my questions. Fantastic quality, it feels premium."
+155,Yoga Mat,2,Worth every penny. My package arrived damaged. The mat broke after a week.
+156,Wireless Earbuds,2,"I have to say, totally overpriced for a earbuds. The seller sent a refund quickly, excellent service. Shipping was late and nobody told me why."
+157,Smart Watch,3,"So, the support team was friendly and patient. The parcel arrived crushed and the watch was scratched."
+158,Smart Watch,3,"I have to say, way too expensive for what you get. The seller sent a refund quickly, fantastic service."
+159,Yoga Mat,5,The mat works perfectly after six months of use.
+160,Yoga Mat,3,"Overall, feels solid and well made. The price is terrible for such basic features. Support sent me the standard manual."
+161,Wireless Earbuds,3,"I have to say, customer support was really helpful. Poorly made and flimsy, the earbuds fell apart after two weeks."
+162,Yoga Mat,2,"The courier lost my package for a week. The seller ignored my refund request, terrible service. Cheaper than other brands and still great."
+163,Smart Watch,1,The courier lost my parcel for a week.
+164,Yoga Mat,2,"I have to say, the price is disappointing for such basic features. The courier lost the package for a week. Very sturdy mat, I'm impressed."
+165,Yoga Mat,4,I paid the normal price for it. The mat works perfectly after two months of use.
+166,Coffee Maker,2,"Overall, customer service was rude. Delivery took two weeks. The price is very fair for what you get."
+167,Wireless Earbuds,5,The support team was friendly and patient.
+168,Yoga Mat,4,"So, cheaper than other brands and still fantastic. Fantastic customer service, they answered all my questions. My parcel arrived crushed and the mat was scratched."
+169,Smart Watch,4,"Very sturdy watch, I'm impressed. Worth every penny. I asked the seller about the warranty."
+170,Yoga Mat,3,"Overall, customer service was rude. Worth every penny."
+171,Yoga Mat,5,"Overall, brilliant quality, it feels premium."
+172,Coffee Maker,2,"So, I paid the normal price for it. The courier lost my parcel for a week. Support was useless and never fixed my problem."
+173,Wireless Earbuds,4,"I have to say, it was shipped by standard post. The build quality of the earbuds is brilliant."
+174,Coffee Maker,3,"I have to say, flimsy coffee maker, the design feels poor. The price is really fair for what you get. The package turned up in five days."
+175,Wireless Earbuds,3,I paid the normal price for it.
+176,Smart Watch,1,"I have to say, the package showed up crushed and the watch was scratched. Way too expensive for what you get. I waited two days for support to reply."
+177,Coffee Maker,1,"Delivery was poor, three weeks of waiting. Support never answered my emails. Not worth the price at all."
+178,Yoga Mat,4,"Delivery took the usual week. The build quality of the mat is fantastic. Got it on sale, great value."
+179,Smart Watch,2,"Overall, shipping was late and nobody told me why. Customer service was rude. I paid the normal price for it."
+180,Yoga Mat,3,"I have to say, price is average for a mat."
+181,Wireless Earbuds,2,"I have to say, I contacted support once about setup. Flimsy earbuds, the design feels disappointing."
+182,Wireless Earbuds,3,"Overall, I contacted support once about setup. Stopped working after ten days. Delivery was really quick."
+183,Yoga Mat,1,"Overall, cheap plastic, feels flimsy. My package showed up crushed and the mat was scratched."
+184,Coffee Maker,3,"Quality is okay, nothing special."
+185,Yoga Mat,3,"The price is about what I expected. I emailed support four times and got no answer. Very sturdy mat, I'm impressed."
+186,Smart Watch,3,Delivery took almost three weeks. Feels solid and well made. I contacted support once about setup.
+187,Smart Watch,5,"I have to say, the seller sent a refund quickly, fantastic service. Cheaper than other brands and still fantastic. The build quality of the watch is excellent."
+188,Wireless Earbuds,5,"So, still working like new after six months."
+189,Wireless Earbuds,3,"So, the support team was friendly and patient. The earbuds broke after a month. Delivery took the usual week."
+190,Yoga Mat,2,"It does the job, standard quality. Shipping was late and nobody told me why."
+191,Wireless Earbuds,3,"The build quality of the earbuds is excellent. The seller ignored my refund request, terrible service."
+192,Smart Watch,4,Support replied within a few hours and fixed it. Delivery took three weeks. Worth every penny.
+193,Wireless Earbuds,1,Stopped working after a week. Customer service was rude.
+194,Smart Watch,4,For this price the watch is a real bargain. Shipping was quick and the tracking was excellent. Support was useless and never fixed my problem.
+195,Wireless Earbuds,4,"The build quality of the earbuds is excellent. Overpriced, you can find it for less elsewhere. Quick delivery, my parcel arrived in four days."
+196,Wireless Earbuds,5,"I have to say, excellent quality, it feels premium. The price is fair for what you get."
+197,Wireless Earbuds,5,"Overall, got it on sale, brilliant value. Support replied within a few hours and fixed it."
+198,Yoga Mat,1,"I have to say, I waited two days for support to reply."
+199,Coffee Maker,4,"Overall, great value for the money. The package arrived a day early. It does the job, standard quality."
+200,Smart Watch,1,
+201,Yoga Mat,3,"Overall, shipping was late and nobody told me why. Excellent customer service, they answered all my questions."
+202,Coffee Maker,5,"So, the build quality of the coffee maker is excellent. Worth every penny."
+203,Wireless Earbuds,4,"Customer support was helpful. Cheaper than other brands and still brilliant. Delivery was poor, almost three weeks of waiting."
+204,Yoga Mat,2,"Support was useless and never fixed my problem. Very sturdy mat, I'm impressed. The parcel arrived crushed and the mat was scratched."
+205,Coffee Maker,5,The support team was friendly and patient. Cheaper than other brands and still excellent.
+206,Smart Watch,1,"Delivery was awful, almost three weeks of waiting."
+207,Coffee Maker,1,"So, shipping was late and nobody told me why. Totally overpriced for a coffee maker."
+208,Coffee Maker,5,"Excellent customer service, they answered all my questions."
+209,Smart Watch,3,The price is about what I expected.
+210,Coffee Maker,1,Way too expensive for what you get.
+211,Smart Watch,1,"Poorly made and flimsy, the watch fell apart after ten days. My package arrived damaged. Way too expensive for what you get."
+212,Yoga Mat,1,"I have to say, the parcel arrived crushed and the mat was scratched. The seller ignored my refund request, awful service. The quality is disappointing, it already looks broken."
+213,Coffee Maker,1,"Overall, I waited three days for support to reply."
+214,Coffee Maker,1,Delivery took three weeks.
+215,Yoga Mat,1,"So, I emailed support several times and got no answer."
+216,Yoga Mat,3,"Got it on sale, fantastic value. Delivery took almost three weeks."
+217,Yoga Mat,1,"I have to say, totally overpriced for a mat. My package turned up crushed and the mat was scratched."
+218,Wireless Earbuds,3,Cheaper than other brands and still brilliant. Delivery took two weeks.
+219,Coffee Maker,1,Shipping was late and nobody told me why.
+220,Yoga Mat,3,Customer support was very helpful. The parcel turned up crushed and the mat was scratched.
+221,Smart Watch,4,"So, support sent me the standard manual. Fantastic quality, it feels premium."
+222,Smart Watch,5,"Overall, for this price the watch is a real bargain."
+223,Smart Watch,1,"So, not worth the price at all."
+224,Smart Watch,4,"Overall, the watch works perfectly after six months of use. I contacted support once about setup."
+225,Coffee Maker,3,"The seller sent a refund quickly, excellent service. The price is about what I expected. Poorly made and flimsy, the coffee maker fell apart after ten days."
+226,Wireless Earbuds,2,My parcel arrived crushed and the earbuds was scratched. Price is average for a earbuds.
+227,Smart Watch,1,My package showed up crushed and the watch was scratched.
+228,Wireless Earbuds,3,"The parcel arrived damaged. Got it on sale, fantastic value."
+229,Yoga Mat,2,"The seller ignored my refund request, poor service. It was shipped by standard post."
+230,Coffee Maker,2,"I have to say, the parcel arrived damaged. Customer service was rude. Feels solid and well made."
+231,Smart Watch,3,"Got it on sale, brilliant value. Support was useless and never fixed my problem."
+232,Coffee Maker,1,"I have to say, the price is disappointing for such basic features. The parcel showed up crushed and the coffee maker was scratched."
+233,Smart Watch,3,"The seller ignored my refund request, disappointing service. Still working like new after six months."
+234,Coffee Maker,1,"I have to say, support never answered my emails."
+235,Wireless Earbuds,1,Customer service was rude.
+236,Smart Watch,5,"So, for this price the watch is a real bargain."
+237,Yoga Mat,2,"The seller sent a refund quickly, excellent service. Flimsy mat, the design feels disappointing. My package arrived damaged."
+238,Wireless Earbuds,5,"I have to say, the seller sent a refund quickly, brilliant service."
+239,Coffee Maker,2,"Great value for the money. Cheap plastic, feels flimsy. Delivery took three weeks."
+240,Wireless Earbuds,5,My parcel came well packed and on time.
+241,Coffee Maker,1,Totally overpriced for a coffee maker. The parcel showed up damaged.
+242,Wireless Earbuds,5,"So, customer support was incredibly helpful."
+243,Smart Watch,5,Support replied within an hour and fixed it.
+244,Coffee Maker,3,I emailed support four times and got no answer. For this price the coffee maker is a real bargain.
+245,Coffee Maker,5,The coffee maker works perfectly after six months of use. Delivery was really quick.
+246,Smart Watch,4,"So, flimsy watch, the design feels poor. Customer support was helpful. Shipping was quick and the tracking was excellent."
+247,Wireless Earbuds,1,"Cheap plastic, feels flimsy. I waited five days for support to reply. Delivery was disappointing, almost three weeks of waiting."
+248,Yoga Mat,5,"Overall, brilliant quality, it feels premium. Worth every penny."
+249,Wireless Earbuds,5,"Overall, the earbuds works perfectly after two months of use."
+250,Smart Watch,3,
+251,Coffee Maker,1,The price is poor for such basic features. I emailed support several times and got no answer.
+252,Coffee Maker,5,"Very sturdy coffee maker, I'm impressed. Got it on sale, excellent value. Fantastic customer service, they answered all my questions."
+253,Yoga Mat,2,"Delivery took three weeks. Got it on sale, fantastic value. Customer service was rude."
+254,Yoga Mat,2,"I paid the normal price for it. Cheap plastic, feels flimsy."
+255,Yoga Mat,3,"Worth every penny. It does the job, standard quality. Delivery was poor, nearly four weeks of waiting."
+256,Wireless Earbuds,3,"I have to say, very sturdy earbuds, I'm impressed. Too expensive, I paid far too much for this earbuds."
+257,Yoga Mat,3,"I have to say, price is average for a mat."
+258,Smart Watch,2,"I have to say, it does the job, standard quality. The courier lost my parcel for a week. The seller ignored my refund request, terrible service."
+259,Coffee Maker,1,"The package arrived damaged. I waited five days for support to reply. The quality is poor, it already looks broken."
+260,Smart Watch,1,Stopped working after ten days.
+261,Smart Watch,2,"So, customer service was rude. It was shipped by standard post. I paid the normal price for it."
+262,Wireless Earbuds,5,"Brilliant quality, it feels premium."
+263,Coffee Maker,1,"The parcel arrived crushed and the coffee maker was scratched. Too expensive, I paid far too much for this coffee maker."
+264,Coffee Maker,3,"Overall, the coffee maker is made of plastic, as expected."
+265,Yoga Mat,4,"The price is incredibly fair for what you get. The mat is made of plastic, as expected. Customer support was helpful."
+266,Smart Watch,3,"So, I emailed support four times and got no answer. Feels solid and well made."
+267,Wireless Earbuds,4,The price is about what I expected. Feels solid and well made.
+268,Wireless Earbuds,1,"So, I emailed support four times and got no answer."
+269,Coffee Maker,3,"Overall, poorly made and flimsy, the coffee maker fell apart after ten days. Great customer service, they answered all my questions."
+270,Smart Watch,2,The watch broke after a week. Delivery took the usual week.
+271,Smart Watch,1,"So, way too expensive for what you get."
+272,Smart Watch,5,"So, got it on sale, great value. The package arrived a day early."
+273,Smart Watch,3,Support sent me the standard manual.
+274,Wireless Earbuds,3,My parcel arrived crushed and the earbuds was scratched. For this price the earbuds is a real bargain.
+275,Coffee Maker,1,"I have to say, support was useless and never fixed my problem."
+276,Wireless Earbuds,3,"So, it does the job, standard quality."
+277,Wireless Earbuds,4,"Support replied within a few hours and fixed it. Delivery was awful, two weeks of waiting. Feels solid and well made."
+278,Coffee Maker,2,"Overall, I emailed support several times and got no answer. It was shipped by standard post. Price is average for a coffee maker."
+279,Yoga Mat,1,I emailed support three times and got no answer. The parcel arrived crushed and the mat was scratched.
+280,Yoga Mat,4,Still working like new after three months. I waited five days for support to reply. Great value for the money.
+281,Coffee Maker,1,"So, cheap plastic, feels flimsy."
+282,Wireless Earbuds,1,"So, the earbuds broke after a week. Way too expensive for what you get. I waited four days for support to reply."
+283,Yoga Mat,4,"So, the mat works perfectly after six months of use. Great value for the money. My parcel arrived damaged."
+284,Smart Watch,1,"So, flimsy watch, the design feels disappointing."
+285,Wireless Earbuds,1,"Flimsy earbuds, the design feels disappointing. Delivery took two weeks. The seller ignored my refund request, awful service."
+286,Smart Watch,3,"So, feels solid and well made. I emailed support several times and got no answer."
+287,Smart Watch,1,Support was useless and never fixed my problem.
+288,Coffee Maker,2,"So, the price is about what I expected. The package showed up in five days. Poorly made and flimsy, the coffee maker fell apart after ten days."
+289,Smart Watch,2,"I have to say, the seller sent a refund quickly, great service. The courier lost my package for a week. Overpriced, you can find it for less elsewhere."
+290,Smart Watch,5,"I have to say, customer support was really helpful."
+291,Smart Watch,1,"I have to say, the price is awful for such basic features. Customer service was rude."
+292,Coffee Maker,3,"I have to say, the seller sent a refund quickly, excellent service. Delivery was terrible, almost three weeks of waiting."
+293,Wireless Earbuds,3,"Support sent me the standard manual. Great value for the money. The quality is poor, it already looks broken."
+294,Yoga Mat,4,"So, delivery took the usual week. Great value for the money. Very sturdy mat, I'm impressed."
+295,Yoga Mat,1,My parcel showed up damaged. Way too expensive for what you get. I waited five days for support to reply.
+296,Coffee Maker,1,"So, the quality is disappointing, it already looks broken. I waited five days for support to reply. Delivery was poor, three weeks of waiting."
+297,Coffee Maker,5,"Brilliant quality, it feels premium."
+298,Wireless Earbuds,1,"Poorly made and flimsy, the earbuds fell apart after a month."
+299,Yoga Mat,5,Feels solid and well made.
+300,Smart Watch,1,
+301,Smart Watch,1,Delivery took two weeks.
+302,Wireless Earbuds,1,"Overpriced, you can find it for less elsewhere."
+303,Coffee Maker,5,"Got it on sale, fantastic value."
+304,Smart Watch,2,"I have to say, too expensive, I paid far too much for this watch. Support sent me the standard manual. Delivery was disappointing, two weeks of waiting."
+305,Yoga Mat,1,"I have to say, my parcel arrived damaged. The price is poor for such basic features."
+306,Wireless Earbuds,1,Shipping was late and nobody told me why.
+307,Coffee Maker,5,"Overall, shipping was quick and the tracking was excellent."
+308,Smart Watch,4,"Customer support was very helpful. Quality is okay, nothing special. The price is really fair for what you get."
+309,Smart Watch,2,"Price is average for a watch. The seller ignored my refund request, terrible service. My package showed up crushed and the watch was scratched."
+310,Coffee Maker,1,"Overall, not worth the price at all. Delivery took almost three weeks."
+311,Yoga Mat,5,"Overall, got it on sale, excellent value."
+312,Yoga Mat,2,"The courier lost my package for a week. Way too expensive for what you get. Excellent customer service, they answered all my questions."
+313,Wireless Earbuds,4,I paid the normal price for it. It was shipped by standard post. Customer support was helpful.
+314,Coffee Maker,5,"Overall, support replied within two hours and fixed it."
+315,Smart Watch,1,The parcel arrived damaged.
+316,Smart Watch,4,"So, got it on sale, great value. The build quality of the watch is brilliant. Support was useless and never fixed my problem."
+317,Wireless Earbuds,2,"Overall, feels solid and well made. The price is poor for such basic features. Shipping was late and nobody told me why."
+318,Coffee Maker,3,"I have to say, excellent quality, it feels premium. Too expensive, I paid far too much for this coffee maker."
+319,Yoga Mat,3,"Overall, it does the job, standard quality."
+320,Smart Watch,1,The courier lost my package for a week. Way too expensive for what you get.
+321,Smart Watch,1,"The quality is poor, it already looks broken."
+322,Coffee Maker,3,"So, it does the job, standard quality."
+323,Coffee Maker,5,Feels solid and well made.
+324,Smart Watch,3,"I have to say, feels solid and well made. Support sent me the standard manual. The price is terrible for such basic features."
+325,Yoga Mat,5,"Excellent customer service, they answered all my questions."
+326,Yoga Mat,5,"Quick delivery, my package arrived in two days."
+327,Yoga Mat,1,"So, not worth the price at all."
+328,Yoga Mat,2,"Brilliant quality, it feels premium. I emailed support three times and got no answer. The parcel showed up damaged."
+329,Yoga Mat,1,"I have to say, totally overpriced for a mat. Support was useless and never fixed my problem. Delivery was awful, almost three weeks of waiting."
+330,Wireless Earbuds,2,"Overall, cheap plastic, feels flimsy. The price is awful for such basic features. Customer support was helpful."
+331,Smart Watch,2,"I have to say, delivery took almost three weeks. Quality is okay, nothing special. The price is awful for such basic features."
+332,Yoga Mat,1,"I have to say, support never answered my emails. The mat broke after ten days. Delivery took almost three weeks."
+333,Wireless Earbuds,3,"Quick delivery, the package turned up in two days. Support never answered my emails."
+334,Yoga Mat,3,"The build quality of the mat is great. Overpriced, you can find it for less elsewhere."
+335,Yoga Mat,1,"I have to say, cheap plastic, feels flimsy."
+336,Wireless Earbuds,5,"Fantastic quality, it feels premium."
+337,Yoga Mat,1,"Overall, too expensive, I paid far too much for this mat."
+338,Smart Watch,3,I asked the seller about the warranty.
+339,Smart Watch,1,"Poorly made and flimsy, the watch fell apart after ten days. The courier lost the package for a week."
+340,Smart Watch,1,"Delivery was poor, three weeks of waiting."
+341,Smart Watch,5,"The seller sent a refund quickly, great service. Worth every penny."
+342,Coffee Maker,1,"The seller ignored my refund request, poor service. Delivery was disappointing, three weeks of waiting."
+343,Wireless Earbuds,3,"I have to say, support sent me the standard manual."
+344,Coffee Maker,4,"So, cheaper than other brands and still brilliant. The build quality of the coffee maker is fantastic. Delivery was awful, three weeks of waiting."
+345,Smart Watch,3,"I have to say, too expensive, I paid far too much for this watch. Still working like new after two months."
+346,Yoga Mat,2,"I have to say, poorly made and flimsy, the mat fell apart after a week. Customer support was very helpful. Delivery took two weeks."
+347,Yoga Mat,3,"So, the package showed up in three days. For this price the mat is a real bargain. The seller ignored my refund request, disappointing service."
+348,Wireless Earbuds,1,"Cheap plastic, feels flimsy. My package arrived crushed and the earbuds was scratched."
+349,Coffee Maker,1,I waited five days for support to reply.
+350,Smart Watch,4,
+351,Yoga Mat,4,"Overall, the build quality of the mat is fantastic. The package showed up in four days."
+352,Coffee Maker,5,"Great quality, it feels premium."
+353,Smart Watch,4,Support sent me the standard manual. Cheaper than other brands and still fantastic. Delivery took the usual week.
+354,Wireless Earbuds,1,The parcel arrived damaged.
+355,Wireless Earbuds,2,"So, the price is about what I expected. Delivery took two weeks."
+356,Yoga Mat,2,"So, poorly made and flimsy, the mat fell apart after two weeks. I paid the normal price for it. The seller ignored my refund request, terrible service."
+357,Coffee Maker,5,The support team was friendly and patient.
+358,Smart Watch,3,"The watch is made of plastic, as expected."
+359,Coffee Maker,4,"Customer support was really helpful. The coffee maker is made of plastic, as expected."
+360,Yoga Mat,5,"So, got it on sale, brilliant value. The support team was friendly and patient."
+361,Wireless Earbuds,1,"So, shipping was late and nobody told me why."
+362,Smart Watch,3,"So, cheaper than other brands and still fantastic. The courier lost the package for a week."
+363,Coffee Maker,3,"Overall, cheaper than other brands and still brilliant. Delivery was poor, almost three weeks of waiting."
+364,Coffee Maker,1,"Overall, totally overpriced for a coffee maker. Support was useless and never fixed my problem. Poorly made and flimsy, the coffee maker fell apart after two weeks."
+365,Yoga Mat,5,Great value for the money. The mat works perfectly after a year of use.
+366,Wireless Earbuds,2,"Overall, it was shipped by standard post. I emailed support twice and got no answer."
+367,Yoga Mat,2,"Support replied within an hour and fixed it. The quality is poor, it already looks broken. Shipping was late and nobody told me why."
+368,Coffee Maker,3,"The price is incredibly fair for what you get. The seller ignored my refund request, terrible service."
+369,Smart Watch,5,"So, got it on sale, fantastic value. The build quality of the watch is great."
+370,Smart Watch,3,"Overall, customer service was rude. Great value for the money."
+371,Yoga Mat,4,"The package turned up damaged. The support team was friendly and patient. Brilliant quality, it feels premium."
+372,Yoga Mat,2,"Overall, it does the job, standard quality. Support was useless and never fixed my problem. Totally overpriced for a mat."
+373,Wireless Earbuds,1,"I have to say, my parcel arrived damaged."
+374,Yoga Mat,5,For this price the mat is a real bargain.
+375,Yoga Mat,1,"Overall, overpriced, you can find it for less elsewhere."
+376,Wireless Earbuds,4,"Customer support was very helpful. The earbuds is made of plastic, as expected."
+377,Yoga Mat,5,"Support replied within two hours and fixed it. Excellent quality, it feels premium."
+378,Yoga Mat,5,"I have to say, worth every penny."
+379,Coffee Maker,1,"Overall, the courier lost my parcel for a week. Customer service was rude. The price is poor for such basic features."
+380,Coffee Maker,4,"I asked the seller about the warranty. Very sturdy coffee maker, I'm impressed."
+381,Smart Watch,3,"Overall, way too expensive for what you get. Still working like new after six months."
+382,Yoga Mat,1,The parcel showed up crushed and the mat was scratched. Support was useless and never fixed my problem.
+383,Wireless Earbuds,2,"I have to say, the package turned up crushed and the earbuds was scratched. Got it on sale, excellent value. Flimsy earbuds, the design feels poor."
+384,Wireless Earbuds,2,"So, the seller ignored my refund request, poor service. The build quality of the earbuds is brilliant. Way too expensive for what you get."
+385,Smart Watch,3,"I have to say, it does the job, standard quality. I emailed support several times and got no answer. For this price the watch is a real bargain."
+386,Smart Watch,3,"Overall, the watch broke after ten days. The support team was friendly and patient."
+387,Smart Watch,5,"The seller sent a refund quickly, fantastic service."
+388,Smart Watch,4,For this price the watch is a real bargain. The watch works perfectly after three months of use. My parcel showed up damaged.
+389,Yoga Mat,4,"Overall, the seller sent a refund quickly, fantastic service. The courier lost the package for a week. Worth every penny."
+390,Smart Watch,4,"The watch is made of plastic, as expected. Customer support was very helpful."
+391,Coffee Maker,1,The courier lost my package for a week. I waited five days for support to reply.
+392,Wireless Earbuds,4,"I have to say, shipping was late and nobody told me why. The earbuds works perfectly after a year of use. The support team was friendly and patient."
+393,Wireless Earbuds,3,The parcel arrived damaged. Feels solid and well made.
+394,Yoga Mat,5,"Got it on sale, fantastic value."
+395,Wireless Earbuds,2,"I have to say, delivery was poor, two weeks of waiting. The seller sent a refund quickly, great service. Poorly made and flimsy, the earbuds fell apart after ten days."
+396,Yoga Mat,5,"I have to say, worth every penny. Feels solid and well made."
+397,Yoga Mat,1,"Overall, I emailed support four times and got no answer."
+398,Yoga Mat,4,I asked the seller about the warranty. Great value for the money.
+399,Coffee Maker,1,"So, too expensive, I paid far too much for this coffee maker."
+400,Wireless Earbuds,5,

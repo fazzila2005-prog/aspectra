@@ -1,0 +1,67 @@
+Testing on eval/exam.csv
+
+ASPECT DETECTION
+aspect     precision  recall      F1
+price           1.00    0.83    0.91
+quality         1.00    0.32    0.48
+delivery        0.90    1.00    0.95
+support         1.00    1.00    1.00
+ALL             0.97    0.69    0.81
+
+SENTIMENT accuracy on correctly found aspects: 0.76 (34 examples)
+
+Confusion matrix (rows = correct answer, columns = our answer):
+          positive  neutral  negative
+positive        12        0         3
+neutral          0        0         2
+negative         1        2        14
+
+FAILURE CASES
+- E4: support: said negative, should be positive
+    "Customer support solved my pairing problem in ten minutes."
+- E5: missed the quality aspect
+    "The coffee maker stopped heating after a month."
+- E7: support: said positive, should be negative
+    "I had to call customer care four times before anyone helped me."
+- E9: missed the quality aspect
+    "Excellent watch for the money."
+- E13: missed the quality aspect
+    "It's fine. Nothing to complain about, nothing to rave about."
+- E14: missed the price aspect
+    "Not bad at all for under twenty pounds."
+- E15: missed the quality aspect
+    "The mat is not as thick as the photos suggest."
+- E16: missed the quality aspect
+    "Oh great, another charger that dies after two uses."
+- E17: price: said negative, should be neutral
+    "I wouldn't say the price is cheap, but you get what you pay for."
+- E20: missed the quality aspect
+    "My daughter loves the colour."
+- E22: missed the quality aspect
+    "Pricey for what it is, but the audio is clearer than my old pair."
+- E23: missed the quality aspect
+    "The app keeps crashing and the watch loses connection every hour."
+- E27: price: said negative, should be neutral
+    "Took three weeks to arrive and the price had dropped by the time it came."
+- E28: missed the quality aspect
+    "The grip is fantastic even during hot yoga."
+- E29: missed the quality aspect
+    "The instructions were confusing and the support email bounced."
+- E31: support: said negative, should be positive
+    "The refund came through in two days, no questions asked."
+- E32: wrongly found a delivery aspect
+    "Pretty good earbuds, but the case scratches easily and shipping cost extra."
+- E32: price: said neutral, should be negative
+    "Pretty good earbuds, but the case scratches easily and shipping cost extra."
+- E32: quality: said neutral, should be negative
+    "Pretty good earbuds, but the case scratches easily and shipping cost extra."
+- E33: missed the quality aspect
+    "Exactly as described and the courier left it safely with my neighbour."
+- E34: missed the price aspect
+    "Cheapest one I could find and honestly it shows."
+- E34: missed the quality aspect
+    "Cheapest one I could find and honestly it shows."
+- E35: missed the quality aspect
+    "I emailed about a missing part and got a reply the next morning with a new one on the way."
+- E35: support: said negative, should be positive
+    "I emailed about a missing part and got a reply the next morning with a new one on the way."

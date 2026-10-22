@@ -1,0 +1,51 @@
+review_id,text,aspect,sentiment
+E1,The earbuds sound great and the battery easily lasts a full day.,quality,positive
+E2,"Delivery was quick, it arrived the day after I ordered.",delivery,positive
+E3,Way too expensive for a basic yoga mat.,price,negative
+E4,Customer support solved my pairing problem in ten minutes.,support,positive
+E5,The coffee maker stopped heating after a month.,quality,negative
+E6,"Good price, and the package came on time.",price,positive
+E6,"Good price, and the package came on time.",delivery,positive
+E7,I had to call customer care four times before anyone helped me.,support,negative
+E8,The strap broke within a week and the seller refused a refund.,quality,negative
+E8,The strap broke within a week and the seller refused a refund.,support,negative
+E9,Excellent watch for the money.,price,positive
+E9,Excellent watch for the money.,quality,positive
+E10,The parcel was left in the rain and the box was soaked.,delivery,negative
+E11,"Affordable, sturdy and it looks nice on my desk.",price,positive
+E11,"Affordable, sturdy and it looks nice on my desk.",quality,positive
+E12,Shipping took ages and the tracking number never worked.,delivery,negative
+E13,"It's fine. Nothing to complain about, nothing to rave about.",quality,neutral
+E14,Not bad at all for under twenty pounds.,price,positive
+E15,The mat is not as thick as the photos suggest.,quality,negative
+E16,"Oh great, another charger that dies after two uses.",quality,negative
+E17,"I wouldn't say the price is cheap, but you get what you pay for.",price,neutral
+E18,"The courier was polite and the delivery was on schedule, though the coffee maker itself leaks.",quality,negative
+E18,"The courier was polite and the delivery was on schedule, though the coffee maker itself leaks.",delivery,positive
+E19,"Their helpdesk never replied, so I gave up and bought another brand.",support,negative
+E20,My daughter loves the colour.,quality,positive
+E21,Arrived in perfect condition.,delivery,positive
+E22,"Pricey for what it is, but the audio is clearer than my old pair.",price,negative
+E22,"Pricey for what it is, but the audio is clearer than my old pair.",quality,positive
+E23,The app keeps crashing and the watch loses connection every hour.,quality,negative
+E24,Returned it because it felt cheap and wobbly.,quality,negative
+E25,"The manufacturer's team walked me through the setup on a video call, very patient.",support,positive
+E26,"Five stars, would buy again.",,
+E27,Took three weeks to arrive and the price had dropped by the time it came.,price,neutral
+E27,Took three weeks to arrive and the price had dropped by the time it came.,delivery,negative
+E28,The grip is fantastic even during hot yoga.,quality,positive
+E29,The instructions were confusing and the support email bounced.,quality,negative
+E29,The instructions were confusing and the support email bounced.,support,negative
+E30,Honestly worth double what I paid.,price,positive
+E31,"The refund came through in two days, no questions asked.",support,positive
+E32,"Pretty good earbuds, but the case scratches easily and shipping cost extra.",quality,negative
+E32,"Pretty good earbuds, but the case scratches easily and shipping cost extra.",price,negative
+E33,Exactly as described and the courier left it safely with my neighbour.,quality,positive
+E33,Exactly as described and the courier left it safely with my neighbour.,delivery,positive
+E34,Cheapest one I could find and honestly it shows.,price,positive
+E34,Cheapest one I could find and honestly it shows.,quality,negative
+E35,I emailed about a missing part and got a reply the next morning with a new one on the way.,support,positive
+E35,I emailed about a missing part and got a reply the next morning with a new one on the way.,quality,negative
+E36,"Overpriced, slow to arrive, and the seller was useless.",price,negative
+E36,"Overpriced, slow to arrive, and the seller was useless.",delivery,negative
+E36,"Overpriced, slow to arrive, and the seller was useless.",support,negative

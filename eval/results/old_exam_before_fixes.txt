@@ -1,0 +1,73 @@
+Testing on eval/test.csv
+
+ASPECT DETECTION
+aspect     precision  recall      F1
+price           0.80    0.40    0.53
+quality         1.00    0.42    0.59
+delivery        1.00    0.64    0.78
+support         1.00    0.67    0.80
+ALL             0.96    0.52    0.68
+
+SENTIMENT accuracy on correctly found aspects: 0.73 (22 examples)
+
+Confusion matrix (rows = correct answer, columns = our answer):
+          positive  neutral  negative
+positive         8        2         0
+neutral          2        0         0
+negative         1        1         8
+
+FAILURE CASES
+- T1: missed the price aspect
+    "Way more than I wanted to spend, but the sound quality is superb."
+- T2: missed the support aspect
+    "My parcel was lost and the company took two weeks to respond."
+- T3: delivery: said neutral, should be positive
+    "Good value. Fast shipping too."
+- T5: support: said neutral, should be positive
+    "The support staff were patient and walked me through the setup."
+- T6: missed the delivery aspect
+    "It came in a plain box, nothing fancy."
+- T7: missed the price aspect
+    "Affordable and surprisingly durable."
+- T7: missed the quality aspect
+    "Affordable and surprisingly durable."
+- T8: missed the quality aspect
+    "The seller ignored all my messages about the faulty charger."
+- T10: wrongly found a price aspect
+    "The watch looks cheap and the strap irritates my skin."
+- T10: missed the quality aspect
+    "The watch looks cheap and the strap irritates my skin."
+- T11: missed the price aspect
+    "Pricey, but you get what you pay for."
+- T12: missed the support aspect
+    "Excellent customer care, they refunded me immediately."
+- T14: missed the quality aspect
+    "Material feels thin and the stitching came apart."
+- T15: price: said positive, should be neutral
+    "I think the price is fine for what it is."
+- T16: missed the delivery aspect
+    "Took forever to arrive and the box was dented."
+- T17: missed the support aspect
+    "The helpline kept me on hold for an hour."
+- T22: missed the quality aspect
+    "The coffee maker leaks water everywhere."
+- T23: missed the price aspect
+    "Shipping was free and quick."
+- T24: missed the price aspect
+    "A total rip-off."
+- T25: delivery: said positive, should be neutral
+    "Delivery was okay."
+- T26: missed the price aspect
+    "They charged me twice and customer service would not fix it."
+- T27: missed the quality aspect
+    "The display is bright and sharp."
+- T28: missed the delivery aspect
+    "Order showed up a week early, which was a nice surprise."
+- T29: support: said neutral, should be negative
+    "Support answered, but the answer was useless."
+- T30: price: said positive, should be negative
+    "Great product at a terrible price."
+- T31: missed the quality aspect
+    "The yoga mat has a strong chemical smell."
+- T32: missed the delivery aspect
+    "Checkout said 3 days, it took 12."

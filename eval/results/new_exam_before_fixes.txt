@@ -1,0 +1,65 @@
+Testing on eval/exam.csv
+
+ASPECT DETECTION
+aspect     precision  recall      F1
+price           0.86    0.67    0.75
+quality         1.00    0.20    0.33
+delivery        1.00    0.86    0.92
+support         1.00    0.83    0.91
+ALL             0.95    0.54    0.69
+
+SENTIMENT accuracy on correctly found aspects: 0.75 (20 examples)
+
+Confusion matrix (rows = correct answer, columns = our answer):
+          positive  neutral  negative
+positive         8        2         1
+neutral          0        0         2
+negative         0        0         7
+
+FAILURE CASES
+- E4: support: said negative, should be positive
+    "Customer support solved my pairing problem in ten minutes."
+- E5: missed the quality aspect
+    "The coffee maker stopped heating after a month."
+- E7: missed the support aspect
+    "I had to call customer care four times before anyone helped me."
+- E9: missed the quality aspect
+    "Excellent watch for the money."
+- E11: missed the price aspect
+    "Affordable, sturdy and it looks nice on my desk."
+- E13: missed the quality aspect
+    "It's fine. Nothing to complain about, nothing to rave about."
+- E14: missed the price aspect
+    "Not bad at all for under twenty pounds."
+- E15: missed the quality aspect
+    "The mat is not as thick as the photos suggest."
+- E16: missed the quality aspect
+    "Oh great, another charger that dies after two uses."
+- E17: price: said negative, should be neutral
+    "I wouldn't say the price is cheap, but you get what you pay for."
+- E18: delivery: said neutral, should be positive
+    "The courier was polite and the delivery was on schedule, though the coffee maker itself leaks."
+- E18: missed the quality aspect
+    "The courier was polite and the delivery was on schedule, though the coffee maker itself leaks."
+- E20: missed the quality aspect
+    "My daughter loves the colour."
+- E22: missed the price aspect
+    "Pricey for what it is, but the audio is clearer than my old pair."
+- E22: missed the quality aspect
+    "Pricey for what it is, but the audio is clearer than my old pair."
+- E23: missed the quality aspect
+    "The app keeps crashing and the watch loses connection every hour."
+- E24: wrongly found a price aspect
+    "Returned it because it felt cheap and wobbly."
+- E24: missed the quality aspect
+    "Returned it because it felt cheap and wobbly."
+- E25: support: said neutral, should be positive
+    "The manufacturer's team walked me through the setup on a video call, very patient."
+- E27: missed the delivery aspect
+    "Took three weeks to arrive and the price had dropped by the time it came."
+- E27: price: said negative, should be neutral
+    "Took three weeks to arrive and the price had dropped by the time it came."
+- E28: missed the quality aspect
+    "The grip is fantastic even during hot yoga."
+- E29: missed the quality aspect
+    "The instructions were confusing and the support email bounced."

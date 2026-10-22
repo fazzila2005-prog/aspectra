@@ -1,0 +1,55 @@
+Testing on eval/dev.csv
+
+ASPECT DETECTION
+aspect     precision  recall      F1
+price           1.00    1.00    1.00
+quality         0.92    0.73    0.81
+delivery        1.00    0.92    0.96
+support         1.00    1.00    1.00
+ALL             0.98    0.89    0.93
+
+SENTIMENT accuracy on correctly found aspects: 0.71 (42 examples)
+
+Confusion matrix (rows = correct answer, columns = our answer):
+          positive  neutral  negative
+positive        13        3         1
+neutral          1        2         0
+negative         2        5        15
+
+FAILURE CASES
+- G2: price: said positive, should be negative
+    "For this price I expected much better. The strap snapped in a month."
+- G3: delivery: said neutral, should be negative
+    "Support was quick to send a replacement. Shipping took ten days though."
+- G5: delivery: said positive, should be neutral
+    "The order arrived on the date promised."
+- G6: support: said positive, should be negative
+    "I emailed the help desk three times and got no answer."
+- G7: price: said neutral, should be positive
+    "Costs a bit more than other brands but it is worth it."
+- G9: support: said negative, should be positive
+    "Customer service fixed my problem in one call. Great product too."
+- G11: support: said neutral, should be positive
+    "Overpriced for such basic features. The agent on chat was polite."
+- G13: missed the quality aspect
+    "The coffee tastes great and the machine is easy to clean."
+- G15: quality: said neutral, should be negative
+    "The battery dies by lunchtime and the screen scratches easily."
+- G17: price: said neutral, should be negative
+    "I paid full price and a week later it was on sale for half."
+- G18: missed the quality aspect
+    "Package was crushed but the watch inside was fine."
+- G22: missed the quality aspect
+    "It is fine. Nothing to complain about, nothing to praise."
+- G24: missed the quality aspect
+    "Cheap and cheerful, does what it says."
+- G25: wrongly found a quality aspect
+    "The product is expensive. The delivery was standard."
+- G27: missed the delivery aspect
+    "Got it in two days, really impressed with how fast it came."
+- G28: support: said neutral, should be positive
+    "I asked support about the size and they answered within minutes."
+- G30: delivery: said neutral, should be negative
+    "Shipping cost more than the item itself."
+- G30: price: said neutral, should be negative
+    "Shipping cost more than the item itself."

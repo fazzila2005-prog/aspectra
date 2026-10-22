@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aspectra · What customers are really saying</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+  <!-- Three.js (3D library) is loaded as a module from a CDN -->
+  <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Top navigation -->
+  <nav class="nav">
+    <a href="#top" class="logo">aspectra<span>.</span></a>
+    <div class="nav-links">
+      <a href="#aspects">Aspects</a>
+      <a href="#ask">Ask</a>
+      <a href="#evidence">Evidence</a>
+      <a href="#evaluation">Evaluation</a>
+      <a href="#method">Method</a>
+    </div>
+    <span class="pill" id="data-pill">Synthetic demo data</span>
+  </nav>
+
+  <main id="main">
+    <!-- HERO: big headline on the left, 3D cloud of review mentions on the right -->
+    <header class="hero" id="top">
+      <div class="hero-text">
+        <p class="label">Aspect-based customer feedback intelligence</p>
+        <h1>What <em id="hero-count">392</em> customers are <em>really</em> saying.</h1>
+        <p class="lead">Aspectra reads every review, splits it into the things people talk about (price, quality, delivery, support), scores the mood of each one, and answers your questions with the reviews as proof.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#ask">Ask the reviews</a>
+          <a class="btn" href="#evaluation">See how accurate it is</a>
+        </div>
+        <dl class="kpis">
+          <div><dt>Reviews</dt><dd id="kpi-reviews">0</dd></div>
+          <div><dt>Aspect mentions</dt><dd id="kpi-mentions">0</dd></div>
+          <div><dt>Biggest issue</dt><dd id="kpi-issue" class="neg-text">…</dd></div>
+        </dl>
+      </div>
+      <figure class="hero-scene">
+        <div id="scene" aria-hidden="true"></div>
+        <div id="scene-labels" aria-hidden="true"></div>
+        <figcaption>
+          Every dot is one aspect mention, grouped by topic.
+          <span class="key"><i class="dot positive"></i>positive</span>
+          <span class="key"><i class="dot neutral"></i>neutral</span>
+          <span class="key"><i class="dot negative"></i>negative</span>
+        </figcaption>
+      </figure>
+    </header>
+
+    <!-- 01 ASPECTS -->
+    <section id="aspects" class="section">
+      <div class="section-head">
+        <span class="num">01</span>
+        <h2>The four things customers talk about</h2>
+        <p>Net score = % positive minus % negative. Click a tile to ask about it.</p>
+      </div>
+      <div id="aspect-grid" class="aspect-grid"></div>
+      <div class="complaints-wrap">
+        <h3>Top recurring complaints</h3>
+        <ol id="complaints" class="complaints"></ol>
+      </div>
+    </section>
+
+    <!-- 02 ASK -->
+    <section id="ask" class="section">
+      <div class="section-head">
+        <span class="num">02</span>
+        <h2>Ask the reviews</h2>
+        <p>Answers come only from the reviews, with review IDs as proof. If there's no evidence, it says so.</p>
+      </div>
+      <form id="ask-form" class="ask">
+        <label for="question" class="visually-hidden">Your question</label>
+        <input id="question" placeholder="e.g. What do customers complain about with delivery?" autocomplete="off">
+        <button type="submit" class="btn primary">Ask</button>
+      </form>
+      <div class="chips" id="chips">
+        <button type="button" class="chip">What are the biggest problems?</button>
+        <button type="button" class="chip">How is the overall product quality?</button>
+        <button type="button" class="chip">Is customer support helpful?</button>
+        <button type="button" class="chip">Do people like the price of the Coffee Maker?</button>
+        <button type="button" class="chip">How long does the battery last?</button>
+      </div>
+      <div id="answer" class="answer" aria-live="polite"></div>
+    </section>
+
+    <!-- 03 EVIDENCE -->
+    <section id="evidence" class="section">
+      <div class="section-head">
+        <span class="num">03</span>
+        <h2>Explore the evidence</h2>
+        <p>Every sentence the app analysed, with its aspect and mood. Sentences that say the same thing are grouped; click one to see which reviews said it.</p>
+      </div>
+      <div class="filters">
+        <label>Aspect
+          <select id="filter-aspect">
+            <option value="">All</option>
+            <option>price</option><option>quality</option><option>delivery</option><option>support</option>
+          </select>
+        </label>
+        <label>Mood
+          <select id="filter-sentiment">
+            <option value="">All</option>
+            <option>positive</option><option>neutral</option><option>negative</option>
+          </select>
+        </label>
+      </div>
+      <p id="review-count" class="muted count"></p>
+      <div id="review-list" class="review-list"></div>
+      <button type="button" class="btn more" id="more-reviews" hidden>Show more</button>
+    </section>
+
+    <!-- 04 EVALUATION -->
+    <section id="evaluation" class="section">
+      <div class="section-head">
+        <span class="num">04</span>
+        <h2>How accurate is it?</h2>
+        <p>Tested against hand-labelled reviews. The <b>practice set</b> and the <b>old exam</b> were used to improve the app. The <b>new exam</b> was labelled by two people and never used to tune anything, so it gives the honest score.</p>
+      </div>
+      <div class="toggle" role="tablist">
+        <button type="button" role="tab" data-set="exam" class="active">New exam (sealed)</button>
+        <button type="button" role="tab" data-set="old_exam">Old exam</button>
+        <button type="button" role="tab" data-set="practice">Practice set</button>
+      </div>
+      <div id="eval-body"></div>
+    </section>
+
+    <!-- 05 METHOD -->
+    <section id="method" class="section">
+      <div class="section-head">
+        <span class="num">05</span>
+        <h2>How it works</h2>
+        <p>Five small, explainable steps. No black box, no paid API.</p>
+      </div>
+      <ol class="pipeline">
+        <li><span>Load &amp; check</span><p>Reads the CSV, checks the required columns, drops empty and duplicate reviews.</p><code>pandas</code></li>
+        <li><span>Split</span><p>Breaks each review into sentences, and at "but" or "though", so each piece holds one opinion.</p><code>regex</code></li>
+        <li><span>Find aspects</span><p>Matches each piece against a keyword list (the aspect taxonomy) for price, quality, delivery and support.</p><code>taxonomy</code></li>
+        <li><span>Score mood</span><p>VADER, a lexicon-based NLP model, taught 36 shopping words, gives each piece a score from −1 to +1.</p><code>vaderSentiment</code></li>
+        <li><span>Answer</span><p>Filters the analysed pieces for your question, groups sentences that share most of their words into recurring points, and cites the review IDs.</p><code>FastAPI</code></li>
+      </ol>
+      <div class="upload">
+        <div>
+          <h3>Try it on your own reviews</h3>
+          <p>Upload a CSV with <code>review_id</code> and <code>text</code> columns. The whole page updates.</p>
+        </div>
+        <label class="btn">Choose CSV<input type="file" id="file" accept=".csv" class="visually-hidden"></label>
+        <p id="upload-msg" class="muted" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>Aspectra · built with FastAPI, VADER and Three.js · the demo reviews are synthetic</footer>
+
+  <!-- Pop-up that shows one full review -->
+  <dialog id="review-dialog">
+    <div id="review-body"></div>
+    <form method="dialog"><button class="btn">Close</button></form>
+  </dialog>
+
+  <script type="module" src="/static/app.js"></script>
+</body>
+</html>

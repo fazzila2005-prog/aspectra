@@ -1,0 +1,45 @@
+Testing on eval/test.csv
+
+ASPECT DETECTION
+aspect     precision  recall      F1
+price           1.00    0.90    0.95
+quality         1.00    1.00    1.00
+delivery        1.00    0.82    0.90
+support         1.00    1.00    1.00
+ALL             1.00    0.93    0.96
+
+SENTIMENT accuracy on correctly found aspects: 0.74 (39 examples)
+
+Confusion matrix (rows = correct answer, columns = our answer):
+          positive  neutral  negative
+positive        14        0         0
+neutral          2        1         1
+negative         2        5        14
+
+FAILURE CASES
+- T1: price: said neutral, should be negative
+    "Way more than I wanted to spend, but the sound quality is superb."
+- T11: price: said negative, should be neutral
+    "Pricey, but you get what you pay for."
+- T14: quality: said neutral, should be negative
+    "Material feels thin and the stitching came apart."
+- T15: price: said positive, should be neutral
+    "I think the price is fine for what it is."
+- T17: support: said neutral, should be negative
+    "The helpline kept me on hold for an hour."
+- T23: missed the price aspect
+    "Shipping was free and quick."
+- T24: price: said neutral, should be negative
+    "A total rip-off."
+- T25: delivery: said positive, should be neutral
+    "Delivery was okay."
+- T28: missed the delivery aspect
+    "Order showed up a week early, which was a nice surprise."
+- T29: support: said neutral, should be negative
+    "Support answered, but the answer was useless."
+- T30: price: said positive, should be negative
+    "Great product at a terrible price."
+- T31: quality: said positive, should be negative
+    "The yoga mat has a strong chemical smell."
+- T32: missed the delivery aspect
+    "Checkout said 3 days, it took 12."

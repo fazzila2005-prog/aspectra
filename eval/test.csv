@@ -1,0 +1,43 @@
+review_id,text,aspect,sentiment
+T1,"Way more than I wanted to spend, but the sound quality is superb.",price,negative
+T1,"Way more than I wanted to spend, but the sound quality is superb.",quality,positive
+T2,"My parcel was lost and the company took two weeks to respond.",delivery,negative
+T2,"My parcel was lost and the company took two weeks to respond.",support,negative
+T3,"Good value. Fast shipping too.",price,positive
+T3,"Good value. Fast shipping too.",delivery,positive
+T4,"The zipper broke on day one.",quality,negative
+T5,"The support staff were patient and walked me through the setup.",support,positive
+T6,"It came in a plain box, nothing fancy.",delivery,neutral
+T7,"Affordable and surprisingly durable.",price,positive
+T7,"Affordable and surprisingly durable.",quality,positive
+T8,"The seller ignored all my messages about the faulty charger.",support,negative
+T8,"The seller ignored all my messages about the faulty charger.",quality,negative
+T9,"Delivery was delayed twice without any explanation.",delivery,negative
+T10,"The watch looks cheap and the strap irritates my skin.",quality,negative
+T11,"Pricey, but you get what you pay for.",price,neutral
+T12,"Excellent customer care, they refunded me immediately.",support,positive
+T13,"The courier was friendly and on time.",delivery,positive
+T14,"Material feels thin and the stitching came apart.",quality,negative
+T15,"I think the price is fine for what it is.",price,neutral
+T16,"Took forever to arrive and the box was dented.",delivery,negative
+T17,"The helpline kept me on hold for an hour.",support,negative
+T18,"Great sound, comfortable fit, and the battery lasts all day.",quality,positive
+T19,"Not cheap, but it is still cheaper than buying a new one every year.",price,positive
+T20,"Return process was easy and the agent was kind.",support,positive
+T21,"Arrived broken and support offered no solution.",delivery,negative
+T21,"Arrived broken and support offered no solution.",support,negative
+T21,"Arrived broken and support offered no solution.",quality,negative
+T22,"The coffee maker leaks water everywhere.",quality,negative
+T23,"Shipping was free and quick.",delivery,positive
+T23,"Shipping was free and quick.",price,positive
+T24,"A total rip-off.",price,negative
+T25,"Delivery was okay.",delivery,neutral
+T26,"They charged me twice and customer service would not fix it.",price,negative
+T26,"They charged me twice and customer service would not fix it.",support,negative
+T27,"The display is bright and sharp.",quality,positive
+T28,"Order showed up a week early, which was a nice surprise.",delivery,positive
+T29,"Support answered, but the answer was useless.",support,negative
+T30,"Great product at a terrible price.",quality,positive
+T30,"Great product at a terrible price.",price,negative
+T31,"The yoga mat has a strong chemical smell.",quality,negative
+T32,"Checkout said 3 days, it took 12.",delivery,negative

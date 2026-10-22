@@ -1,0 +1,48 @@
+review_id,text,aspect,sentiment
+G1,"The courier left the box in the rain and it was soaked. Otherwise the headphones sound amazing.",delivery,negative
+G1,"The courier left the box in the rain and it was soaked. Otherwise the headphones sound amazing.",quality,positive
+G2,"For this price I expected much better. The strap snapped in a month.",price,negative
+G2,"For this price I expected much better. The strap snapped in a month.",quality,negative
+G3,"Support was quick to send a replacement. Shipping took ten days though.",support,positive
+G3,"Support was quick to send a replacement. Shipping took ten days though.",delivery,negative
+G4,"Honestly a bargain. It feels premium and sturdy.",price,positive
+G4,"Honestly a bargain. It feels premium and sturdy.",quality,positive
+G5,"The order arrived on the date promised.",delivery,neutral
+G6,"I emailed the help desk three times and got no answer.",support,negative
+G7,"Costs a bit more than other brands but it is worth it.",price,positive
+G8,"The tracking number never updated and the parcel showed up a week late.",delivery,negative
+G9,"Customer service fixed my problem in one call. Great product too.",support,positive
+G9,"Customer service fixed my problem in one call. Great product too.",quality,positive
+G10,"The mat started peeling after a few uses. Delivery was fine.",quality,negative
+G10,"The mat started peeling after a few uses. Delivery was fine.",delivery,positive
+G11,"Overpriced for such basic features. The agent on chat was polite.",price,negative
+G11,"Overpriced for such basic features. The agent on chat was polite.",support,positive
+G12,"Arrived quickly and the packaging was neat.",delivery,positive
+G13,"The coffee tastes great and the machine is easy to clean.",quality,positive
+G14,"The price is reasonable. Shipping was slow.",price,positive
+G14,"The price is reasonable. Shipping was slow.",delivery,negative
+G15,"The battery dies by lunchtime and the screen scratches easily.",quality,negative
+G16,"Nobody from support replied to my refund request.",support,negative
+G17,"I paid full price and a week later it was on sale for half.",price,negative
+G18,"Package was crushed but the watch inside was fine.",delivery,negative
+G18,"Package was crushed but the watch inside was fine.",quality,positive
+G19,"The warranty team was helpful and the replacement works perfectly.",support,positive
+G19,"The warranty team was helpful and the replacement works perfectly.",quality,positive
+G20,"Decent quality for the money.",quality,positive
+G20,"Decent quality for the money.",price,positive
+G21,"The earbuds keep disconnecting. Support told me to restart them, which did not help.",quality,negative
+G21,"The earbuds keep disconnecting. Support told me to restart them, which did not help.",support,negative
+G22,"It is fine. Nothing to complain about, nothing to praise.",quality,neutral
+G23,"Delivered to the wrong address and the seller refused to help.",delivery,negative
+G23,"Delivered to the wrong address and the seller refused to help.",support,negative
+G24,"Cheap and cheerful, does what it says.",price,positive
+G24,"Cheap and cheerful, does what it says.",quality,positive
+G25,"The product is expensive. The delivery was standard.",price,negative
+G25,"The product is expensive. The delivery was standard.",delivery,neutral
+G26,"Build quality is poor and the price is too high.",quality,negative
+G26,"Build quality is poor and the price is too high.",price,negative
+G27,"Got it in two days, really impressed with how fast it came.",delivery,positive
+G28,"I asked support about the size and they answered within minutes.",support,positive
+G29,"Works as described.",quality,neutral
+G30,"Shipping cost more than the item itself.",price,negative
+G30,"Shipping cost more than the item itself.",delivery,negative
